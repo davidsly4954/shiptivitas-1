@@ -3,6 +3,12 @@
   font-size: 12px;
   padding: 20px;
   margin-bottom: 10px;
+  cursor: grab;
+}
+
+/* Dragula clones the card being dragged and gives the clone this class. */
+.Card.gu-mirror {
+  cursor: grabbing;
 }
 
 .Card-grey {
